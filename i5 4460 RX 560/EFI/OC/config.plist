@@ -39,37 +39,6 @@
 				<string>SSDT-EHCx-OFF.aml</string>
 			</dict>
 		</array>
-		<key>Block</key>
-		<array>
-			<dict>
-				<key>All</key>
-				<false/>
-				<key>Comment</key>
-				<string>Drop CpuPm</string>
-				<key>Enabled</key>
-				<true/>
-				<key>OemTableId</key>
-				<data>Q3B1UG0AAAA=</data>
-				<key>TableLength</key>
-				<integer>0</integer>
-				<key>TableSignature</key>
-				<data>U1NEVA==</data>
-			</dict>
-			<dict>
-				<key>All</key>
-				<false/>
-				<key>Comment</key>
-				<string>Drop Cpu0Ist</string>
-				<key>Enabled</key>
-				<false/>
-				<key>OemTableId</key>
-				<data>Q3B1MElzdAA=</data>
-				<key>TableLength</key>
-				<integer>0</integer>
-				<key>TableSignature</key>
-				<data>U1NEVA==</data>
-			</dict>
-		</array>
 		<key>Patch</key>
 		<array>
 		</array>
@@ -191,13 +160,6 @@
 				<key>AAPL,ig-platform-id</key>
 				<data>AwAiDQ==</data>
 			</dict>
-		</dict>
-		<key>Block</key>
-		<dict>
-			<key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
-			<array>
-				<string>MaximumBootBeepVolume</string>
-			</array>
 		</dict>
 		<key>Delete</key>
 		<dict/>
@@ -476,8 +438,6 @@
 			<true/>
 			<key>PowerTimeoutKernelPanic</key>
 			<true/>
-			<key>ThirdPartyTrim</key>
-			<false/>
 			<key>XhciPortLimit</key>
 			<true/>
 			<key>AppleXcpmForceBoost</key>
@@ -642,17 +602,6 @@
 				<key>rtc-blacklist</key>
 				<data></data>
 			</dict>
-		</dict>
-		<key>Block</key>
-		<dict>
-			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
-			<array>
-				<string>UIScale</string>
-			</array>
-			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
-			<array>
-				<string>boot-args</string>
-			</array>
 		</dict>
 		<key>LegacyEnable</key>
 		<false/>
@@ -865,31 +814,6 @@
 			<key>KeyFiltering</key>
 			<false/>
 		</dict>
-		<key>Protocols</key>
-		<dict>
-			<key>AppleBootPolicy</key>
-			<false/>
-			<key>AppleEvent</key>
-			<false/>
-			<key>AppleImageConversion</key>
-			<false/>
-			<key>AppleKeyMap</key>
-			<false/>
-			<key>AppleUserInterfaceTheme</key>
-			<false/>
-			<key>ConsoleControl</key>
-			<false/>
-			<key>DataHub</key>
-			<false/>
-			<key>DeviceProperties</key>
-			<false/>
-			<key>FirmwareVolume</key>
-			<true/>
-			<key>HashServices</key>
-			<true/>
-			<key>UnicodeCollation</key>
-			<false/>
-		</dict>
 		<key>Quirks</key>
 		<dict>
 			<key>ExitBootServicesDelay</key>
@@ -978,13 +902,9 @@
 			<false/>
 			<key>AppleImageConversion</key>
 			<false/>
-			<key>AppleImg4Verification</key>
-			<false/>
 			<key>AppleKeyMap</key>
 			<false/>
 			<key>AppleRtcRam</key>
-			<false/>
-			<key>AppleSecureBoot</key>
 			<false/>
 			<key>AppleSmcIo</key>
 			<false/>
